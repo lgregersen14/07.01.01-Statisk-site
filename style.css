@@ -129,10 +129,10 @@ font-family: 'PT Sans', sans-serif;
 .grid_2 h1 {
   font-size: 28px;
 }
-.grid_2 h2 {
+.price {
   font-size: 14px;
 }
-.grid_2 p {
+.subtle {
   font-size: 14px;
 }
 .grid_2 img {
