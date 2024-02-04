@@ -1,6 +1,8 @@
 /*Top menu*/
 body {
     background: #F9F6EE;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
   }
   
   header {
@@ -71,8 +73,7 @@ width: 50%;
 /*Productlist*/
 .grid_1 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: auto auto auto auto;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin-top: 10rem;
@@ -86,15 +87,20 @@ width: 50%;
   overflow: hidden;
 }
 .clothing_frame h1 {
-font-size: 16px;
+  font-size: 62.5%;
+font-family: 'PT Sans', sans-serif;
 }
 .clothing_frame h2 {
-    font-size: 18px;
-    color: rgb(94, 94, 94);
+  font-size: 62.5%;
+    text-decoration: none;
+    color: #323232;
+    font-family: 'PT Sans', sans-serif;
 }.clothing_frame p {
-    font-size: 16px;
+  font-size: 62.5%;
     font-weight: 900;
-    color: rgb(94, 94, 94);
+    text-decoration: none;
+    color: #323232;
+    font-family: 'PT Sans', sans-serif;
 }
 .clothing_frame img {
     width: 95%;
