@@ -10,6 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2.5rem;
+    background-color: white;
   }
   
   .logo {
@@ -77,7 +78,7 @@ width: 50%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin-top: 10rem;
- 
+ text-decoration: none;
 }
 .clothing_frame {
     border: 1px solid #ccc;
@@ -107,6 +108,10 @@ font-family: 'PT Sans', sans-serif;
     height: 80%;
     object-fit: cover;
 }
+.clothing_frame :hover {
+  border-bottom: 2px solid red;
+  text-decoration:none;
+}
 /*Product*/
 .grid_2 {
     display: grid;
@@ -114,4 +119,22 @@ font-family: 'PT Sans', sans-serif;
     grid-template-rows: 1;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    font-family: 'PT Sans', sans-serif;
+
+    
+}
+.grid_2 h1, h2, p {
+  text-align: center;
+}
+.grid_2 h1 {
+  font-size: 28px;
+}
+.grid_2 h2 {
+  font-size: 14px;
+}
+.grid_2 p {
+  font-size: 14px;
+}
+.grid_2 img {
+  width: 50vw;
 }
