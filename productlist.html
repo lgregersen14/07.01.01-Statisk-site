@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Productlist</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <a href="index.html" class="logo">Home</a>
-        <nav class="site-nav">
-          <ul>
-            <li><a href="category.html">Categories</a></li>
-            <li><a href="category.html">Brands</a></li>
-            <li><a href="category.html">seasons</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-    <main>
-        <div class="grid_1">
-            <template id="smallProductTemplate">
-            <a href="product.html">
-        <article class="clothing_frame">
-         <img src="https://kea-alt-del.dk/t7/images/webp/1000/1163.webp" alt="">
-            <p class="subtle">Nike</p>
-            <h1>Sahara Team India Fanwear Round Neck Jersey</h1>
-            <h2 class="price">895</h2>
-        </article>
-    </a>
-</template>
+      <a href="index.html" class="logo">Home</a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="category.html">Categories</a></li>
+          <li><a href="category.html">Brands</a></li>
+          <li><a href="category.html">seasons</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main></main>
+    <template id="smallProductTemplate">
+      <div class="grid_1">
+        <a href="product.html">
+          <article class="clothing_frame">
+            <!-- <img
+              src="https://kea-alt-del.dk/t7/images/webp/1000/1163.webp"
+              alt=""
+            /> -->
+            <p class="subtle">BRAND</p>
+            <h1>PRODUKTNAN</h1>
+            <h2 class="price">PRIS<span></span></h2>
+            <p class="soldOut">Sold out</p>
+          </article>
+        </a>
+      </div>
+    </template>
     <!--
         <article class="clothing_frame">
             <img src="https://kea-alt-del.dk/t7/images/webp/1000/1528.webp" alt="">
@@ -89,7 +97,7 @@
             <h2>895</h2>
         </article>
     -->
-        </div>
-    </main>
-<script src="productlist.js"></script></body>
+
+    <script src="productlist.js"></script>
+  </body>
 </html>
