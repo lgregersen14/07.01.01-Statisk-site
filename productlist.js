@@ -16,6 +16,10 @@ function showProduct(product) {
   //Alt under her er forskellige informationer
 
   //aendre indhold
+  copy.querySelector(".subtle").textContent = product.brandname;
+  //naeste
+  copy.querySelector(".price").textContent = product.price;
+  //naeste
   copy.querySelector("h1").textContent = product.productdisplayname;
   if (product.soldout) {
     //produktet er udsolgt
@@ -24,3 +28,9 @@ function showProduct(product) {
   //appende
   document.querySelector("main").appendChild(copy);
 }
+
+//produktet rabat
+//copy.querySelector(".discounted").textContent = product.discount;
+//if (product.discount) {
+//produktet er nedsat
+//copy.querySelector(".discount").classList.add("discount");
