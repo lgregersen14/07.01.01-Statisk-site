@@ -1,129 +1,129 @@
 /*Top menu*/
 body {
-    background: #F9F6EE;
-    font-size: 1.3rem;
-    line-height: 1.4rem;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2.5rem;
-    background-color: white;
-  }
-  
-  .logo {
-    font-size: 34px;
-    line-height: 50px;
-    text-align: center;
-    text-decoration: none;
-     font-family: Lato, sans-serif;
-    color: black;
-  }
-  
-  .site-nav {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  }
-  
-  ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-  }
-  ul:hover li:not(:hover) a {
-    opacity: 0.2;
-  }
-  ul li {
-    position: relative;
-    padding: 30px 25px 30px 25px;
-    cursor: pointer;
-  }
-  ul li::after {
-    position: absolute;
-    content: "";
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: #3498db;
-    transform: scaleX(0);
-    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-  }
-  ul li:hover::after, ul li.active::after {
-    transform: scaleX(1);
-  }
-  ul li a {
-    position: relative;
-    display: flex;
-    color: black;
-    font-family: Lato, sans-serif;
-    text-decoration: none;
-    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-  }
+  background: #f9f6ee;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  background-color: white;
+}
+
+.logo {
+  font-size: 34px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  color: black;
+}
+
+.site-nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+ul:hover li:not(:hover) a {
+  opacity: 0.2;
+}
+ul li {
+  position: relative;
+  padding: 30px 25px 30px 25px;
+  cursor: pointer;
+}
+ul li::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #3498db;
+  transform: scaleX(0);
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+ul li:hover::after,
+ul li.active::after {
+  transform: scaleX(1);
+}
+ul li a {
+  position: relative;
+  display: flex;
+  color: black;
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
 /*Category*/
 .flex_box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-justify-content: center;
-align-content: center;
-width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
 }
 /*Productlist*/
 .grid_1 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    margin-top: 10rem;
- text-decoration: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 10rem;
+  text-decoration: none;
 }
 .clothing_frame {
-    border: 1px solid #ccc;
-    text-align: center;
-    width: 100%;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 100%;
   height: 100%;
   overflow: hidden;
+  height: 24rem;
 }
 .clothing_frame h1 {
   font-size: 62.5%;
-font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 .clothing_frame h2 {
   font-size: 62.5%;
-    text-decoration: none;
-    color: #323232;
-    font-family: 'PT Sans', sans-serif;
-}.clothing_frame p {
+  text-decoration: none;
+  color: #323232;
+  font-family: "PT Sans", sans-serif;
+}
+.clothing_frame p {
   font-size: 62.5%;
-    font-weight: 900;
-    text-decoration: none;
-    color: #323232;
-    font-family: 'PT Sans', sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  color: #323232;
+  font-family: "PT Sans", sans-serif;
 }
 .clothing_frame img {
-    width: 95%;
-    height: 80%;
-    object-fit: cover;
+  width: 98%;
+  height: 50%;
+  object-fit: cover;
 }
-.clothing_frame :hover {
-  border-bottom: 2px solid red;
-  text-decoration:none;
-}
+
 /*Product*/
 .grid_2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    font-family: 'PT Sans', sans-serif;
-
-    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-family: "PT Sans", sans-serif;
 }
-.grid_2 h1, h2, p {
+.grid_2 h1,
+h2,
+p {
   text-align: center;
 }
 .grid_2 h1 {
