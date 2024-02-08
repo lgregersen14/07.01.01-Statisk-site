@@ -44,6 +44,12 @@ function showProduct(product) {
   copy
     .querySelector(".read-more")
     .setAttribute("href", `product.html?id=${product.id}`);
+
+  if (product.soldout) {
+    //udsolgt
+    copy.querySelector("article").classList.add("soldOut");
+  } else {
+  }
   //appende
   document.querySelector(".grid_1").appendChild(copy);
 }
