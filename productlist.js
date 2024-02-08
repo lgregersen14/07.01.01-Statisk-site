@@ -41,7 +41,9 @@ function showProduct(product) {
   } else {
     copy.querySelector(".discounted").remove();
   }
-
+  copy
+    .querySelector(".read-more")
+    .setAttribute("href", `product.html?id=${product.id}`);
   //appende
   document.querySelector(".grid_1").appendChild(copy);
 }
