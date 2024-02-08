@@ -68,12 +68,6 @@ ul li a {
 }
 /*Category*/
 .flex_box {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  width: 50%;
 }
 /*Productlist*/
 .grid_1 {
@@ -118,6 +112,7 @@ ul li a {
   font-family: "PT Sans", sans-serif;
 }
 .rabat_procent {
+  color: #323232;
 }
 .clothing_frame img {
   width: 98%;
