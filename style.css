@@ -68,6 +68,9 @@ ul li a {
 }
 /*Category*/
 .flex_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 /*Productlist*/
 .grid_1 {
